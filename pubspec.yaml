@@ -1,0 +1,20 @@
+name: vein_detector_app
+description: A Flutter app to detect veins using image processing.
+
+publish_to: 'none' # Remove this if you're going to publish the app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add the camera package here
+  camera: ^0.10.0  # Or use the latest version available
+
+
+flutter:
+  uses-material-design: true
